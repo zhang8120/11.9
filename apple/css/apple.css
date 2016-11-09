@@ -1,0 +1,515 @@
+.container {
+  width: 660px;
+  position: relative;
+  overflow: hidden;
+}
+.container > .row {
+  width: 100%;
+}
+.container > .row:before,
+.container > .row:after {
+  content: '';
+  display: block;
+}
+.container > .row:after {
+  clear: both;
+}
+.container-fluid {
+  width: 100%;
+  margin: auto;
+}
+.container-fluid > .row {
+  width: 100%;
+}
+.container-fluid > .row:before,
+.container-fluid > .row:after {
+  content: '';
+  display: block;
+}
+.container-fluid > .row:after {
+  clear: both;
+}
+.container .container > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container .container > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container .container > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container .container > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container .container > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container .container > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container .container > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container .container > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container .container > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container .container > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container .container > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container .container > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.container .container-fluid > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.banner {
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/macbookpro_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+.banner1 {
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/iphone_large.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+.banner2 {
+  width: 100%;
+  height: 540px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/event_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+.watch {
+  height: 200px;
+  background: url("../img/nike_watch_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 736px 200px;
+}
+.accessibility {
+  height: 200px;
+  background: url("../img/accessibility_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 736px 200px;
+}
+.iphone {
+  height: 200px;
+  background: url("../img/iphone_upgrade_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 736px 200px;
+}
+.airpods {
+  height: 200px;
+  background: url("../img/airpods_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 736px 200px;
+}
+/*小屏*/
+/*中屏*/
+@media screen and (min-width: 660px) {
+  .container {
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/macbookpro_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .banner1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 540px;
+    background: url("../img/iphone_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .banner2 {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/event_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .watch {
+    height: 200px;
+    background: url("../img/nike_watch_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 640px 200px;
+  }
+  .accessibility {
+    height: 200px;
+    background: url("../img/accessibility_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 640px 200px;
+  }
+  .iphone {
+    height: 200px;
+    background: url("../img/iphone_upgrade_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 640px 200px;
+  }
+  .airpods {
+    height: 200px;
+    background: url("../img/airpods_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 640px 200px;
+  }
+  .container > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/*大屏*/
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/macbookpro_large.jpg") 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% ;
+  }
+  .banner1 {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/iphone_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .banner2 {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/event_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .watch {
+    height: 200px;
+    background: url("../img/nike_watch_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 200px;
+  }
+  .accessibility {
+    height: 200px;
+    background: url("../img/accessibility_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 200px;
+  }
+  .iphone {
+    height: 200px;
+    background: url("../img/iphone_upgrade_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 200px;
+  }
+  .airpods {
+    background: url("../img/airpods_large.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 200px;
+  }
+  .container > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+}
